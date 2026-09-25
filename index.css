@@ -226,13 +226,3 @@ ol {
 li {
   margin-bottom: 8px;
 }
-
-#canvas {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  pointer-events: none; /* Permite hacer clic a través del fondo */
-  z-index: -1; /* Mantiene la animación detrás del contenido */
-}
